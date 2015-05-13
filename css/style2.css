@@ -1,0 +1,50 @@
+#body2 {
+  /*margin-top: 90px;*/
+}
+
+.navbar-brand {
+  margin-bottom: 0px;
+}
+
+.navbar-custom {
+    background-color: rgba(34, 34, 34, 0.82);
+    color:#ffffff;
+    border-radius:3;
+}
+
+#map {
+  height: 400px;
+}
+.jumbotron {
+    background-image: url('../images/crowd.jpg');
+    background-position: center;
+    height: 600px;
+    color: #e70b6f;
+}
+.jumbotron .container {
+  position: relative;
+  top: 200px;
+}
+
+.jumbotron h1 {
+  color: #e70b6f;
+  text-shadow: 1px 1px 3px #657690;
+}
+
+.work-entry {
+  margin: 0 0 15px;
+}
+
+.education-entry {
+  margin: 0 0 20px;
+}
+
+.pspace {
+  margin: 10px 0 10px;
+}
+
+.flex-item {
+  font-size: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
