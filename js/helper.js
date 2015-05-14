@@ -23,11 +23,11 @@ var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span> 
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span> <span class="white-text">%data%</span></li>';
 */
-var HTMLmobile = '<li class="flex-item"><a href="tel:%data%"><i class="fa fa-phone"></i></a></li>';
-var HTMLemail = '<li class="flex-item"><a href="mailto:%data%"><i class="fa fa-envelope"></i></a></li>';
-var HTMLtwitter = '<li class="flex-item"><a href="https://twitter.com/%data%"><i class="fa fa-twitter"></i></a></li>';
-var HTMLgithub = '<li class="flex-item"><a href="https://github.com/%data%"><i class="fa fa-github-alt"></i></a></li>';
-var HTMLlocation = '<li class="flex-item"><a href="https://www.google.com/maps/place/%data%"><i class="fa fa-location-arrow"></i></a></li>';
+var HTMLmobile = '<li class="flex-item"><a href="tel:%data%" data-toggle="popover" data-content="%data%" data-placement="top"><i class="fa fa-phone"></i></a></li>';
+var HTMLemail = '<li class="flex-item"><a href="mailto:%data%" data-toggle="popover" data-content="%data%" data-placement="top"><i class="fa fa-envelope"></i></a></li>';
+var HTMLtwitter = '<li class="flex-item"><a href="https://twitter.com/%data%" data-toggle="popover" data-content="%data%" data-placement="top"><i class="fa fa-twitter"></i></a></li>';
+var HTMLgithub = '<li class="flex-item"><a href="https://github.com/%data%" data-toggle="popover" data-content="%data%" data-placement="top"><i class="fa fa-github-alt"></i></a></li>';
+var HTMLlocation = '<li class="flex-item"><a href="https://www.google.com/maps/place/%data%" data-toggle="popover" data-content="%data%" data-placement="top"><i class="fa fa-location-arrow"></i></a></li>';
 
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
@@ -256,3 +256,7 @@ window.addEventListener('resize', function(e) {
 
 
 window.addEventListener("hashchange", function() { scrollBy(0, -70) })
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({trigger: "hover"});
+});

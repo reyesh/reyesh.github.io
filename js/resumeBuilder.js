@@ -180,19 +180,19 @@ bio.displayContact = function(){
 
       switch (i) {
         case "mobile":
-            formattedMobile = HTMLmobile.replace("%data%", bio.contacts[i]);
+            formattedMobile = HTMLmobile.replace(/%data%/g, bio.contacts[i]);
             break;
         case "email":
-            formattedEmail = HTMLemail.replace("%data%", bio.contacts[i]);
+            formattedEmail = HTMLemail.replace(/%data%/g, bio.contacts[i]);
             break;
         case "github":
-            formattedGH = HTMLgithub.replace("%data%", bio.contacts[i]);
+            formattedGH = HTMLgithub.replace(/%data%/g, bio.contacts[i]);
             break;
         case "twitter":
-            formattedTW = HTMLtwitter.replace("%data%", bio.contacts[i]);
+            formattedTW = HTMLtwitter.replace(/%data%/g, bio.contacts[i]);
             break;
         case "location":
-            formattedLocation = HTMLlocation.replace("%data%", bio.contacts[i]);
+            formattedLocation = HTMLlocation.replace(/%data%/g, bio.contacts[i]);
             break;
           }
   }
