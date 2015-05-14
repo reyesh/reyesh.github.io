@@ -52,7 +52,7 @@
 .brand-logo {
   display: inline-block;
   margin-top: 15px;
-  color: grey;
+  color: lightgrey;
 }
 
 .brand-slash {
@@ -60,14 +60,14 @@
   padding-left: 3px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 536px) {
 /*	body { background-color: green; } */
   .brand-logo {
     display: block;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
-    color: grey;
+    color: lightgrey;
   }
   .brand-slash {
     display: none;
@@ -79,4 +79,13 @@
     margin-top: 5px;
   }
 
+}
+
+@media screen and (min-width: 1000px) {
+
+/*  body { background-color: green; } */
+
+  .container {
+    width: 950px;
+  }
 }

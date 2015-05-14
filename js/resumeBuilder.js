@@ -231,7 +231,9 @@ bio.msgDisplay = function (){
   msg.text(bio.msg[x])
 }
 
-bio.msgDisplay();
+setInterval(function(){ bio.msgDisplay() }, 5000);
+
+//bio.msgDisplay();
 
 work.display();
 projects.display();
