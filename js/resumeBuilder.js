@@ -2,7 +2,7 @@ var bio = {
   "name" : "Reyes Herrera, Jr",
   "role" : "Front-End Web Developer",
   "contacts": {
-    "mobile" : "+15598698324",
+    "mobile" : "+14151242982",
     "email" : "sjobs@apple.com",
     "github" : "reyesh",
     "twitter": "reyesh",
