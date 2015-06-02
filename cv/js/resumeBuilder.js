@@ -42,7 +42,7 @@ var work = {
       "title": "Driver",
       "date": "July 2014 - Present",
       "description": "Taking people from point A to point B, acheived a 5 star rating, safe driving, no incidents or traffic violations",
-      "location": "San Francisco, CA",
+      "location": "San Francisco, CA, USA",
       "bPoints": "<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Nam quis justo vitae lorem consectetur bibendum.</li><li>Donec eleifend ipsum vel purus aliquam iaculis.</li><li>Nulla et lectus id erat elementum gravida.</li><li>In egestas lectus ut magna vestibulum, ut efficitur velit mollis.</li><li>Aenean vel enim at turpis placerat viverra sit amet at metus.</li></ul>"
 
     },
@@ -52,7 +52,7 @@ var work = {
       "title": "Technical Support Engineer",
       "date": "Feb 2004 - Apr 2013",
       "description": "Provide technical support to 50 customers 24/7, Go-to guy for any technical (networking, programming, system administration), set up compnay email system, vpn network",
-      "location": "Cupertino, CA",
+      "location": "Cupertino, CA, USA",
       "bPoints": "<ul><li>Suspendisse quis orci et mi facilisis auctor vel at dolor.</li><li>Proin vitae libero vel diam aliquet pharetra.</li><li>Sed mattis nisl ut felis porttitor, id mattis est blandit.</li><li>Aenean condimentum risus ac posuere molestie.</li></ul>"
     },
     {
@@ -61,7 +61,7 @@ var work = {
       "title": "Front-End Web Developer",
       "date": "Feb 2001 - Apr 2004",
       "description": "Providing complex technical support to 50 customers 24/7",
-      "location": "Mountain View, CA",
+      "location": "Mountain View, CA, USA",
       "bPoints": "<ul><li>Sed feugiat arcu sed ligula aliquet, quis rutrum orci tristique.</li><li>Vestibulum molestie nibh et velit placerat cursus a at arcu.</li><li>Morbi luctus tellus vitae tellus vestibulum, id ultrices arcu maximus.</li><li>Curabitur in nulla sed mi rutrum pulvinar.</li><li>In cursus diam nec euismod facilisis.</li></ul>"
     }
   ]
@@ -97,7 +97,7 @@ var education = {
     "schools": [
         {
             "name": "Fresno State University",
-            "location": "Fresno, CA, US",
+            "location": "Fresno, CA, USA",
             "degree": "BA",
             "date": "July 1998 - May 2003",
             "major": "Graphic Design",
@@ -115,7 +115,7 @@ var education = {
         },
         {
             "name": "Udacity",
-            "location": "http://www.udacity.com",
+            "location": "Mountain View, CA, USA",
             "degree": "nanodegree",
             "date": "March 2014 - Present",
             "major": "Front End Web Developer",
@@ -141,7 +141,6 @@ work.display = function () {
 }
 
 projects.display = function (){
-
 
   for (i in this.projects) {
     $("#projects").append(HTMLprojectStart);
