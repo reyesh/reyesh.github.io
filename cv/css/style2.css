@@ -1,0 +1,91 @@
+#body2 {
+  /*margin-top: 90px;*/
+}
+
+.navbar-brand {
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: rgba(23, 23, 23, 0.75);
+  border-color: #000000;
+}
+
+#map {
+  height: 400px;
+}
+.jumbotron {
+    background-image: url('../images/crowd.jpg');
+    background-position: center;
+    height: 600px;
+    color: #e70b6f;
+}
+.jumbotron .container {
+  position: relative;
+  top: 200px;
+}
+
+.jumbotron h1 {
+  color: #e70b6f;
+  text-shadow: 1px 1px 7px #000000;
+}
+
+.work-entry {
+  margin: 0 0 15px;
+}
+
+.education-entry {
+  margin: 0 0 20px;
+}
+
+.pspace {
+  margin: 10px 0 10px;
+}
+
+.flex-item {
+  display: inline-block;
+  font-size: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.brand-logo {
+  display: inline-block;
+  margin-top: 15px;
+  color: lightgrey;
+}
+
+.brand-slash {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+@media screen and (max-width: 536px) {
+/*	body { background-color: green; } */
+  .brand-logo {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: lightgrey;
+  }
+  .brand-slash {
+    display: none;
+  }
+  .brand-logo-bottom{
+    margin-top: -10px;
+  }
+  .brand-logo-top{
+    margin-top: 5px;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+/*  body { background-color: green; } */
+
+  .container {
+    width: 950px;
+  }
+}

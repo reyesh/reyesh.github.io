@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<!--
+This is an HTML document. It contains information about how elements in the website
+are arranged. In other words, it describes the layout of a website.
+
+I can't wait to see the resumes you put together!
+
+Cameron Pittman, Udacity Course Developer
+-->
+
+<!--
+The <head> of a website generally links to important resources the page will
+need to load. You'll see a lot of <link>s to CSS files for styles and
+<scripts> for JavaScript files to build interactions.
+-->
+<head>
+  <!-- This tells the browser how to read the document. -->
+  <meta charset="utf-8">
+
+  <!-- Tells the browser what the title of this page should be. -->
+  <title>Resume</title>
+
+  <!-- Load the page styles.
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  -->
+  <!--
+  jQuery is a common JavaScript library for reading and making changes to the
+  Document Object Model (DOM). The DOM is a tree that contains information
+  about what is actually visible on a website.
+
+  While HTML is a static document, the browser converts HTML to the
+  DOM and the DOM can change. In fact, JavaScript's power comes from
+  its ability to manipulate the DOM, which is essentially a JavaScript
+  object. When JavaScript makes something interesting happen on a
+  website, it's likely the action happened because JavaScript changed
+  the DOM. jQuery is fast and easy to use, but it doesn't do anything
+  you can't accomplish with vanilla (regular) JavaScript.
+  -->
+  <script src="js/jQuery.js"></script>
+
+  <!-- More on helper.js in the class -->
+  <script src="js/helper.js"></script>
+
+  <!--
+  Uncomment the <script> tag below when you're ready to add an interactive
+  Google Map to your resume!
+  -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <!--
+  <meta name="viewport" content="width=device-width">
+  -->
+  <!--
+    the following was added for bootstrap
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="css/style2.css" rel="stylesheet" type="text/css">
+
+</head>
+<body unresolved id="body2"> <!--
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <p class="navbar-brand">REYES HERRERA JR / <small>FRONT-END WEB DEVELOPER</small></p>
+      </div>
+      <div>
+        <ul class="nav navbar-nav pull-right">
+          <li class="active"><a href="#">Top</a></li>
+          <li><a href="#">Work Experience</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Map</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+-->
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <h3 class="brand-logo brand-logo-top">
+              REYES HERRERA JR</h3>
+              <h3 class="brand-logo brand-slash"><small>/</small></h3>
+              <h3 class="brand-logo brand-logo-bottom"><small>FRONT-END WEB DEVELOPER</small></h3>
+          </div>
+          <!-- Collection of nav links and other content for toggling -->
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#body2">Home</a></li>
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#header">Skills</a></li>
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#workExperience">Work Experience</a></li>
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#projects">Projects</a></li>
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#education">Education</a></li>
+                  <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#mapDiv">Map</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 id="bioMsg">Hello World</h1>
+      <p>Everything from here to the tag below</p>
+      <a class="btn btn-info btn-lg" href="mailto:reyesh@gmail.com?subject=We're interested in hiring you!" role="button">Hire Me!</a>
+    </div>
+  </div>
+  <div id="main" class="container">
+    <!--
+    Everything from here to the <script> tag below is the skeleton of your
+    website. Your code will add information to each of the sections of the
+    resume below. You can pretty easily figure out what each section will
+    display by looking at the id or at what's written between the <h2> tags.
+    -->
+
+    <div id="header" class="row well center-content clearfix">
+      <ul id="topContacts" class='flex-box list-inline'></ul>
+    </div>
+    <div style='clear: both;'></div>
+    <div id="workExperience" class='row well gray'>
+      <h2>Work Experience</h2>
+    </div>
+    <div id="projects" class="row well">
+      <h2>Projects</h2>
+    </div>
+    <div id="education" class='row well gray'>
+      <h2>Education</h2>
+    </div>
+    <div id="mapDiv" class='row well'>
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="letsConnect" class='row well dark-gray'>
+      <h2 class='orange center-text'>Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box text-center">
+      </ul>
+    </div>
+  </div>
+
+  <!--
+  The next line tells the browser where to download the JavaScript file you'll be
+  writing. In resumeBuilder.js, you'll be writing code that builds the resume
+  dynamically when this website, index.html, is opened.
+  -->
+  <script src="js/resumeBuilder.js"></script>
+
+
+  <!--
+  These scripts are written in JavaScript. You'll be breaking them down as part of
+  a quiz. Essentially, the next few lines are checking to see if you have not
+  changed each section of the resume. If you have not made any changes to a section
+  of the resume, then that part of the resume does not show up. More on this in the
+  course.
+  -->
+
+  <script type="text/javascript">
+    // Notice how all of a sudden there's JavaScript inside this HTML
+    // document? You can write JavaScript between <script> tags. At the end of your
+    // JavaScript, don't forget the closing script tag with the slash (/).
+
+
+    // Also, this is a JavaScript style comment. You can comment in JavaScript with:
+
+    //   two slashes for all following characters on a single line, or
+
+    /*
+        an opening and closing set of slash asterisks for block comments.
+    */
+
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      //document.getElementById('topContacts').style.display = 'none';
+      document.getElementById('topContacts').style.backgroundcolor = 'black';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      //document.getElementById('header').style.display = 'none';
+      document.getElementById('header').style.backgroundcolor = 'black';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.backgroundcolor = 'black';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+    //  document.getElementById('projects').style.display = 'none';
+      document.getElementById('projects').style.backgroundcolor = 'black';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+    //  document.getElementById('education').style.display = 'none';
+      document.getElementById('education').style.backgroundcolor = 'black';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      //document.getElementById('letsConnect').style.display = 'none';
+      document.getElementById('letsConnect').style.backgroundcolor = 'black';
+    }
+    if(document.getElementById('map') === null) {
+      //document.getElementById('mapDiv').style.display = 'none';
+      document.getElementById('mapDiv').style.backgroundcolor = 'black';
+    }
+  </script>
+
+  <!-- end of html body -->
+  <!-- Modal -->
+  <div class="modal fade" id="myp1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Project 1</h4>
+        </div>
+        <div class="modal-body">
+  		<div class="text-center">
+  			<img class="img-thumbnail img-responsive" src="http://placehold.it/600x200" alt="project 1 image">
+  		</div>
+  			<p>Sed convallis turpis id mauris mollis, eu consectetur nulla posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis in sapien aliquet velit accumsan cursus. Aenean neque orci, sollicitudin eu orci sed, pulvinar sodales velit. Aliquam tortor risus, molestie non libero nec, dignissim finibus justo. Duis ullamcorper, ante vitae congue molestie, mi ex semper ante, vitae tempor mauris purus faucibus urna.
+  			</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myp2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Project 2</h4>
+        </div>
+        <div class="modal-body">
+  		<div class="text-center">
+  			<img class="img-thumbnail img-responsive" src="http://placehold.it/600x200" alt="project 2 image">
+  		</div>
+  			<p>Sed convallis turpis id mauris mollis, eu consectetur nulla posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis in sapien aliquet velit accumsan cursus. Aenean neque orci, sollicitudin eu orci sed, pulvinar sodales velit. Aliquam tortor risus, molestie non libero nec, dignissim finibus justo. Duis ullamcorper, ante vitae congue molestie, mi ex semper ante, vitae tempor mauris purus faucibus urna.
+  			</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myp3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Project 3</h4>
+        </div>
+        <div class="modal-body">
+  		<div class="text-center">
+  			<img class="img-thumbnail img-responsive" src="http://placehold.it/600x200" alt="project 3 image">
+  		</div>
+  			<p>Sed convallis turpis id mauris mollis, eu consectetur nulla posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis in sapien aliquet velit accumsan cursus. Aenean neque orci, sollicitudin eu orci sed, pulvinar sodales velit. Aliquam tortor risus, molestie non libero nec, dignissim finibus justo. Duis ullamcorper, ante vitae congue molestie, mi ex semper ante, vitae tempor mauris purus faucibus urna.
+  			</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
