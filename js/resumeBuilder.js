@@ -2,19 +2,19 @@ var bio = {
   "name" : "Reyes Herrera, Jr",
   "role" : "Front-End Web Developer",
   "contacts": {
-    "mobile" : "+14151242982",
-    "email" : "sjobs@apple.com",
+    "mobile" : "+15598698324",
+    "email" : "reyesh@gmail.com",
     "github" : "reyesh",
     "twitter": "reyesh",
     "facebook": "http://www.facebook.com/reyesh",
-    "googleplus": "http://plus.google.com/reyesh",
+    "googleplus": "http://plus.google.com/+reyesh",
     "linkedin": "http://www.linkedin.com/reyesh",
     "location": "Sunnyvale,+CA,+USA",
     "youtube": "https://www.youtube.com/user/Reyesh"
   },
 
   "skills" : [
-    "HTML", "CSS" , "Javascript", "JSON", "JQuery", "AnjularJS", "JADSDS", "Python"
+    "HTML", "CSS" , "javaScript", "PHP", "MySQL","JSON", "JQuery", "bootstrap", "git/github", "Photoshop", "Illustrator", "Premiere", "IP networking", "Linux", "scripting (bash, perl, sed, awk)", "Windows", "Mac OS X"
   ],
 
   "bioPic": "images/fry.jpg",
@@ -22,9 +22,9 @@ var bio = {
   "msg" : [
     "Hi, I'm Reyes. I love coding.",
     "Hola, Me llamo Reyes. Me gusta la programacion" ,
-    "Howdy! I'm Reyes, and ready to be part of a team",
-    "Hey there, I'm Reyes. I like to solve problems",
-    "Hi, I'm Reyes. I have a passsion for coding!"
+    "I'm ready to be part of a team",
+    "I like to solve problems",
+    "I like to troubleshoot"
   ],
   "travels" : [
     "20.656031, -101.794904",
@@ -38,31 +38,27 @@ var bio = {
 var work = {
   "jobs": [
     {
-      "employer": "Self Employeed (Lyft)",
-      "title": "Driver",
+      "employer": "Lyft",
+      "title": "Independent Contractor Driver",
       "date": "July 2014 - Present",
-      "description": "Taking people from point A to point B, acheived a 5 star rating, safe driving, no incidents or traffic violations",
+      "description": "A transportation networking company that facilitates peer-to-peer ridesharing by connecting passengers who need a ride with drivers who have a car.",
       "location": "San Francisco, CA, USA",
-      "bPoints": "<ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Nam quis justo vitae lorem consectetur bibendum.</li><li>Donec eleifend ipsum vel purus aliquam iaculis.</li><li>Nulla et lectus id erat elementum gravida.</li><li>In egestas lectus ut magna vestibulum, ut efficitur velit mollis.</li><li>Aenean vel enim at turpis placerat viverra sit amet at metus.</li></ul>"
+      "bPoints": "<ul><li>No incidents, no traffic violations</li><li>Five Star Driver!</li></ul>"
 
     },
     {
 
-      "employer": "Pear, Inc",
+      "employer": "Smart Hospitality Corporation",
       "title": "Technical Support Engineer",
       "date": "Feb 2004 - Apr 2013",
-      "description": "Provide technical support to 50 customers 24/7, Go-to guy for any technical (networking, programming, system administration), set up compnay email system, vpn network",
-      "location": "Cupertino, CA, USA",
-      "bPoints": "<ul><li>Suspendisse quis orci et mi facilisis auctor vel at dolor.</li><li>Proin vitae libero vel diam aliquet pharetra.</li><li>Sed mattis nisl ut felis porttitor, id mattis est blandit.</li><li>Aenean condimentum risus ac posuere molestie.</li></ul>"
-    },
-    {
-
-      "employer": "Googol",
-      "title": "Front-End Web Developer",
-      "date": "Feb 2001 - Apr 2004",
-      "description": "Providing complex technical support to 50 customers 24/7",
-      "location": "Mountain View, CA, USA",
-      "bPoints": "<ul><li>Sed feugiat arcu sed ligula aliquet, quis rutrum orci tristique.</li><li>Vestibulum molestie nibh et velit placerat cursus a at arcu.</li><li>Morbi luctus tellus vitae tellus vestibulum, id ultrices arcu maximus.</li><li>Curabitur in nulla sed mi rutrum pulvinar.</li><li>In cursus diam nec euismod facilisis.</li></ul>"
+      "description": "Smart Hospitality Corporation helps hotels enhance their guest experience and increase revenue with Digital In-room Entertainment systems",
+      "location": "Visalia, CA, USA",
+      "bPoints": "<ul>\
+                    <li>Identifying/resolving any computer/network related issue by analyzing on or off site.</li>\
+                    <li>Developed Automation Copying Software that formats, and copies data to USB drives. This reduced the time of the duplication process by 80%.</li>\
+                    <li>Developed custom screens for hotel clients.</li>\
+                    <li>Provided excellent customer support. Support was 24/7 for 50 hotels.</li>\
+                  </ul>"
     }
   ]
 }
@@ -70,25 +66,37 @@ var work = {
 var projects = {
   "projects": [
     {
-      "title": "P1: Build a Portfolio Site",
-      "dates": "March 2014",
-      "description": "Homepage of all my web development projects",
-      "image": "http://placehold.it/197x148",
-      "dataTarget": "#myp1"
+      "title": "Interactive Resume",
+      "dates": "May 2015",
+      "description": "Interactive resume using javaScript, jQuery, JSON, and the bootstrap",
+      "image": "../images/p1tn.png",
+      "url": "https://github.com/reyesh/frontend-nanodegree-resume",
+      "mdID": "myp1",
+      "mdLabel": "myModalLabel1",
+      "mdImage": "../images/200x600-resume.png",
+      "mdDes": "Single-page, responsive application built with bootstrap framework, jquery and hosted on GitHub Pages. Developed scrolling message, project section expands according to your json object, added dynamic custom markers for the map based on places I lived and worked based on my json object."
     },
     {
-      "title": "P2: Interactive Resume",
-      "dates": "March 2014",
-      "description": "Interactive resume using JavaScript, jQuery, JSON, and the bootstrap framework",
-      "image": "http://placehold.it/197x148",
-      "dataTarget": "#myp2"
-    },
-    {
-      "title": "P3: Classic Arcade Game Clone",
-      "dates": "March 2014",
+      "title": "Classic Arcade Game Clone",
+      "dates": "June 2015",
       "description": "With a game engine, and the visual assets I had to recreate the classic game Frogger",
-      "image": "http://placehold.it/197x148",
-      "dataTarget": "#myp3"
+      "image": "../images/arcade-tn.png",
+      "url": "https://github.com/reyesh/frontend-nanodegree-arcade-game",
+      "mdID": "myp2",
+      "mdLabel": "myModalLabel2",
+      "mdImage": "../images/600x200-arcade.png",
+      "mdDes": "Clone of the classic game, Frogger. Udacity provided the art assets and game engine. Coded player, enemies, and other game entities in JavaScript's object-oriented pseudo-classical style. Created a new player from a sprite sheet from Legend of Zelda, and made the player’s movements animate, added levels, and music."
+    },
+    {
+      "title": "Drawing with Random",
+      "dates": "May 2015",
+      "description": "JavaScript class to create randomize paintings using html5 canvas",
+      "image": "../images/p3tn.png",
+      "url": "https://github.com/reyesh/html5-canvas-drawing-with-random",
+      "mdID": "myp3",
+      "mdLabel": "myModalLabel3",
+      "mdImage": "../images/200x600p3.png",
+      "mdDes": "Used object oriented JS, functional class pattern with shared methods. Made use of requestAnimationFrame, and recursive functions."
     }
   ]
 }
@@ -110,13 +118,13 @@ var education = {
             "degree": "Certification",
             "date": "Jan 2013 - Nov 2013",
             "major": "Database Administration",
-            "minor": "Linux Administration",
+            "minor": "",
             "highlight": "Set up Mondrian OLAP server on home server"
         },
         {
             "name": "Udacity",
             "location": "Mountain View, CA, USA",
-            "degree": "nanodegree",
+            "degree": "Nanodegree",
             "date": "March 2014 - Present",
             "major": "Front End Web Developer",
             "minor": "",
@@ -125,6 +133,40 @@ var education = {
     ]
 }
 
+var activities = {
+    "activities": [
+        {
+            "title": "Udacity nanodegree hackathon",
+            "level": "participant",
+            "date": "April 2015",
+            "url": "https://www.udacity.com/"
+        },
+        {
+          "title": "SF day of civic hacking",
+          "level": "volunteer",
+          "date": "June 2015",
+          "url": "http://hackathon.sfsu.edu/"
+        },
+        {
+          "title": "JQuery SF 2015",
+          "level": "volunteer",
+          "date": "June 2015",
+          "url": "http://jquerysf.com/"
+        },
+        {
+          "title": "Make your Angular App a Maximum Security Prison",
+          "level": "attendee",
+          "date": "June 2015",
+          "url": "https://plus.google.com/events/cvnt1o4c5ekca0do0a1ci2roof4?authkey=CPOlop2riP_-hwE&mkt_tok=3RkMMJWWfF9wsRols6vPZKXonjHpfsX/4uQvT/rn28M3109ad%2BrmPBy73YoJWp8na%2BqWCgseOrQ8ll0LV9ewRs0Uqaw="
+        },
+        {
+          "title": "Fresno State Wine Label Content",
+          "level": "winner",
+          "date": "December 2001",
+          "url": "http://www.fresnostatenews.com/2001/12/fresno-state-winery-honors-president-welty-two-with-to-new-wines-label-design-winnders-awarded/"
+        }
+    ]
+}
 
 work.display = function () {
 
@@ -141,17 +183,44 @@ work.display = function () {
 }
 
 projects.display = function (){
-
+//mdDes
   for (i in this.projects) {
     $("#projects").append(HTMLprojectStart);
-
     formattedTitle = HTMLprojectTitle.replace("%data%", this.projects[i].title);
+    formattedTitle = formattedTitle.replace("%data2%", this.projects[i].url);
     formattedDate = HTMLprojectDates.replace("%data%", this.projects[i].dates);
     formattedDescription = HTMLprojectDescription.replace("%data%", this.projects[i].description);
     formattedImage = HTMLprojectImage.replace("%data%", this.projects[i].image);
-    formattedImage = formattedImage.replace("%data2%", this.projects[i].dataTarget);
+    formattedImage = formattedImage.replace("%data2%", "#"+this.projects[i].mdID);
     formattedProject = formattedTitle + formattedDate + formattedDescription + formattedImage;
     $(".project-entry:last").append(formattedProject);
+    //Adding the modal
+    formattedModalTemp = HTMLmodalTemp.replace("%data%", this.projects[i].mdID);
+    formattedModalTemp = formattedModalTemp.replace(/%data2%/g, this.projects[i].mdLabel);
+    formattedModalTemp = formattedModalTemp.replace("%data3%", this.projects[i].mdImage);
+    formattedModalTemp = formattedModalTemp.replace("%data4%", this.projects[i].mdDes);
+    formattedModalTemp = formattedModalTemp.replace("%data5%", this.projects[i].title);
+    $("body").append(formattedModalTemp);
+
+    console.log(formattedModalTemp);
+  }
+
+}
+
+activities.display = function (){
+
+  var formattedTitle = "";
+  var formattedDate = "";
+  var formattedActvities = "";
+
+  for (i in this.activities) {
+    $("#activities").append(HTMLactivitiesStart);
+    formattedTitle = HTMLactivitiesTitle.replace("%data%", this.activities[i].title);
+    formattedTitle = formattedTitle.replace("%data2%", this.activities[i].level);
+    formattedTitle = formattedTitle.replace("%data3%", this.activities[i].url);
+    formattedDate = HTMLactivitiesDates.replace("%data%", this.activities[i].date);
+    formattedActvities = formattedTitle + formattedDate;
+    $(".activities-entry:last").append(formattedActvities);
   }
 
 }
@@ -239,5 +308,6 @@ projects.display();
 education.display();
 bio.display();
 bio.displayContact();
+activities.display();
 
 $("#mapDiv").append(googleMap);

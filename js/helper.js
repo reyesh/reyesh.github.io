@@ -44,7 +44,7 @@ var HTMLworkLocation = '<div class="location-text pull-right">%data%</div><br>';
 var HTMLworkDescription = '<p class="pspace">%data%</p>';
 
 var HTMLprojectStart = '<div class="col-sm-6 col-md-4 project-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
+var HTMLprojectTitle = '<a href="%data2%">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img data-toggle="modal" data-target="%data2%" src="%data%">';
@@ -58,6 +58,10 @@ var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 var HTMLschoolMinor = '<em><br>Minor: %data%</em>';
 var HTMLschoolhighlight = '<div>Note: %data%</div>';
 
+var HTMLactivitiesStart = '<div class="activities-entry"></div>';
+var HTMLactivitiesTitle = '<div class="pull-left"><a href ="%data3%">%data%</a> - %data2%</div>';
+var HTMLactivitiesDates = '<div class="date-text pull-right">%data%</div><br>';
+
 var HTMLonlineClasses = '<h3>Online Classes</h3>';
 var HTMLonlineTitle = '<a href="#">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
@@ -66,6 +70,31 @@ var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
+
+// %data% id="myp1"
+// %data2% aria-labelledby="myModalLabel1"
+// %data3% src="http://image.png"
+// %data4% <p>
+// %data5% title
+
+var HTMLmodalTemp = '<div class="modal fade" id="%data%" tabindex="-1" role="dialog" aria-labelledby="%data2%" aria-hidden="true">\
+    <div class="modal-dialog">\
+      <div class="modal-content">\
+        <div class="modal-header">\
+          <h4 class="modal-title" id="%data2%">%data5%</h4>\
+        </div>\
+        <div class="modal-body">\
+  		<div class="text-center">\
+  			<img class="img-thumbnail img-responsive" src="%data3%" alt="project 1 image">\
+  		</div>\
+  			<p>%data4%</p>\
+        </div>\
+        <div class="modal-footer">\
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>\
+        </div>\
+      </div>\
+    </div>\
+  </div>';
 
 
 /*
