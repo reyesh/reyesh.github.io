@@ -55,9 +55,9 @@ var work = {
       "location": "Visalia, CA, USA",
       "bPoints": "<ul>\
                     <li>Identifying/resolving any computer/network related issue by analyzing on or off site.</li>\
-                    <li>Developed Automation Copying Software that formats, and copies data to USB drives. This reduced the time of the duplication process by 80%.</li>\
+                    <li>Developed Automation Copying Software that formats and copies data to USB drives, reducing the time of the duplication process by 80%.</li>\
                     <li>Developed custom screens for hotel clients.</li>\
-                    <li>Provided excellent customer support. Support was 24/7 for 50 hotels.</li>\
+                    <li>Provided excellent customer support, 24/7 for 50 hotels in a team of three.</li>\
                   </ul>"
     }
   ]
@@ -74,7 +74,7 @@ var projects = {
       "mdID": "myp1",
       "mdLabel": "myModalLabel1",
       "mdImage": "../images/200x600-resume.png",
-      "mdDes": "Single-page, responsive application built with bootstrap framework, jquery and hosted on GitHub Pages. Developed scrolling message, project section expands according to your json object, added dynamic custom markers for the map based on places I lived and worked based on my json object."
+      "mdDes": "Single-page, responsive application built with bootstrap framework, jquery and hosted on GitHub Pages. Developed scrolling message, project section expands according to your JSON object, added dynamic custom markers for the map based on places I lived and worked based on my JSON object."
     },
     {
       "title": "Classic Arcade Game Clone",
