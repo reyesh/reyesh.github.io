@@ -85,7 +85,7 @@ var projects = {
       "mdID": "myp2",
       "mdLabel": "myModalLabel2",
       "mdImage": "../images/600x200-arcade.png",
-      "mdDes": "Clone of the classic game, Frogger. Udacity provided the art assets and game engine. Coded player, enemies, and other game entities in JavaScript's object-oriented pseudo-classical style. Created a new player from a sprite sheet from Legend of Zelda, and made the player’s movements animate, added levels, and music."
+      "mdDes": "Clone of the classic game, Frogger. Udacity provided the art assets and game engine. Coded player, enemies, and other game entities in JavaScript's object-oriented pseudo-classical style. Created a new player from a sprite sheet from Legend of Zelda, and made the player’s movements animate, added levels, and music. Game can be played onlne at http://reye.sh/p3"
     },
     {
       "title": "Drawing with Random",
