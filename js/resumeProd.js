@@ -429,8 +429,6 @@ bio.msgDisplay = function (){
 
 setInterval(function(){ bio.msgDisplay() }, 5000);
 
-//bio.msgDisplay();
-
 work.display();
 projects.display();
 education.display();
@@ -438,11 +436,7 @@ bio.display();
 bio.displayContact();
 activities.display();
 
-$("#mapDiv").append(googleMap);
-
 $( document ).ready(function(){
     $('[data-toggle="popover"]').popover({trigger: "hover"});
     console.log("ready!! ! !! ! !! ! !!");
 });
-
-window.addEventListener("hashchange", function() { scrollBy(0, -70) });
