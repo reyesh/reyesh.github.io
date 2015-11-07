@@ -1,4 +1,4 @@
 ## Personal Website
 
-This github repository (gh-pages) is live at http://reye.sh
+This github repository (master branch) is live at http://reye.sh
 
